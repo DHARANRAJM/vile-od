@@ -326,8 +326,8 @@ echo -e $lightgreen "                 \\      ~-____-~    _-~    ~-_    ~-_-~   
 echo -e $lightgreen "                   ~-_           _-~          ~-_       _/"
 echo -e $lightgreen "                      ~--______-~                ~-___-~"
 echo -e $lightgreen ""
-echo -e $lightgreen "                      dark-side // Android Payload Engine"
-}
+echo -e $lightgreen "                         dark-side // Android Payload Engine
+echo -e $lightgreen "                      DHARAN RAJ // WEB DEVELOPER__ETHICAL HACKER
 
 #function lhost
 function get_lhost() 
@@ -986,7 +986,7 @@ function main()
         print_ascii_art
         echo -e $green ""
         echo "╔──────────────────────────────────────────────╗"
-        echo "|          dark-side Framework $ver           |"
+        echo "|          dark-side Framework $ver            |"
         echo "|      Hack & Remote android platform          |"
         echo "┖──────────────────────────────────────────────┙"
         echo "[1] APK MSF                                     "
