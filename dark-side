@@ -32,15 +32,15 @@ function checkinternet()
   ping -c 1 google.com > /dev/null 2>&1
   if [[ "$?" != 0 ]]
   then
-    echo -e $yellow " Checking For Internet: ${RedF}FAILED"
+    echo -e $blue " Checking For Internet: ${RedF}FAILED"
     echo
-    echo -e $red "This Script Needs An Active Internet Connection"
+    echo -e $blue "This Script Needs An Active Internet Connection"
     echo
-    echo -e $yellow " dark-side Exit"
+    echo -e $blue " dark-side Exit"
     echo && sleep 2
     exit 1
   else
-    echo -e $yellow " Checking For Internet: ${LighGreenF}CONNECTED"
+    echo -e $blue " Checking For Internet: ${LighGreenF}CONNECTED"
   fi
 }
 
@@ -326,8 +326,8 @@ echo -e $lightgreen "                 \\      ~-____-~    _-~    ~-_    ~-_-~   
 echo -e $lightgreen "                   ~-_           _-~          ~-_       _/"
 echo -e $lightgreen "                      ~--______-~                ~-___-~"
 echo -e $lightgreen ""
-echo -e $lightgreen "                         dark-side // Android Payload Engine
-echo -e $lightgreen "                      DHARAN RAJ // WEB DEVELOPER__ETHICAL HACKER
+echo -e $lightgreen "                         dark-side // Android Payload Engine"
+echo -e $lightgreen "                      DHARAN RAJ // WEB DEVELOPER__ETHICAL HACKER"
 
 #function lhost
 function get_lhost() 
